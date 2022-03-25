@@ -1,12 +1,11 @@
-<form action="#" method="post">
-    <label for="username">Username</label>
+    <form action="#" method="POST">
+   <label for="username">Username</label>
     <input type="text" id="username" name="username">
     <label for="password">Password</label>
     <input type="password" id="password" name="password">
     <input type="submit" value="Submit">
-</form> 
+</form>
 
-    {{#if errorMessage}}
-      {{errorMessage}}
-    {{/if}}
-
+{{#if errorMessage}}
+   {{errorMessage}}
+{{/if}}
